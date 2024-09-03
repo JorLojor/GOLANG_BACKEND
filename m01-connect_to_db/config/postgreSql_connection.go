@@ -9,6 +9,10 @@ import (
 	"github.com/jackc/pgx/v4"
 )
 
+
+
+
+
 var Connection *pgx.Conn
 
 func ConnectToPostgresql() {
